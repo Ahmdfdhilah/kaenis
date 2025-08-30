@@ -8,6 +8,10 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
+import fadil from '@/assets/fadil.jpg';
+import fito from '@/assets/ceo.jpg';
+// import miko from '@/assets/miko.jpg';
+import richard from '@/assets/richard.jpg';
 
 interface TeamProps {
   imageUrl: string;
@@ -23,74 +27,49 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: fito,
+    name: "Fiqih Mauzan Alfito",
+    position: "Chief Executive Officer",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.linkedin.com/in/fiqihmauzanalfito/",
       },
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
+    imageUrl: fadil,
+    name: "Ahmad Fadilah",
+    position: "Chief Technology Officer I",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.linkedin.com/in/ahmdfdhilah/",
       },
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
+    imageUrl: richard,
+    name: "Richard Arya Winarta",
+    position: "Chief Technology Officer II",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.linkedin.com/in/richardnarta/",
       },
     ],
   },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
-    socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-    ],
-  },
+  // {
+  //   imageUrl: ,
+  //   name: "",
+  //   position: "",
+  //   socialNetworks: [
+  //     {
+  //       name: "Linkedin",
+  //       url: "",
+  //     },
+  //   ],
+  // },
 ];
 
 export const Team = () => {
@@ -116,12 +95,11 @@ export const Team = () => {
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Our Dedicated{" "}
         </span>
-        Crew
+        Team
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Meet the passionate digital innovators behind Kaenis Tech. Our team combines years of experience in software development, digital strategy, and cutting-edge technology to deliver exceptional solutions that transform businesses.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
@@ -142,10 +120,6 @@ export const Team = () => {
                   {position}
                 </CardDescription>
               </CardHeader>
-
-              <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </CardContent>
 
               <CardFooter>
                 {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (

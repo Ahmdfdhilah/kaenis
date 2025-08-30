@@ -22,8 +22,7 @@ export const HeroCards = () => {
   };
 
   return (
-    <div className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]">
-     
+    <div className="hidden sm:flex flex-row flex-wrap gap-8 relative lg:w-[700px] h-[500px]">
       {/* Team Profile */}
       <Card className="absolute right-[20px] top-12 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
@@ -34,7 +33,7 @@ export const HeroCards = () => {
           />
           <CardTitle className="text-center">Fiqih M. Alfito</CardTitle>
           <CardDescription className="font-normal text-primary">
-          Chief Executive Officer
+            Chief Executive Officer
           </CardDescription>
         </CardHeader>
 
@@ -64,18 +63,6 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button
-            className="w-full flex items-center gap-2"
-            onClick={openWhatsApp}
-          >
-            <MessageCircle className="w-4 h-4" />
-            Contact via WhatsApp
-          </Button>
-        </CardContent>
-
-        <hr className="w-4/5 m-auto mb-4" />
-
-        <CardFooter className="flex">
           <div className="space-y-4">
             {[
               "Free initial consultation",
@@ -91,6 +78,18 @@ export const HeroCards = () => {
               </span>
             ))}
           </div>
+
+        </CardContent>
+
+        <hr className="w-4/5 m-auto mb-4" />
+        <CardFooter className="flex">
+          <Button
+            className="w-full flex items-center gap-2"
+            onClick={openWhatsApp}
+          >
+            <MessageCircle className="w-4 h-4" />
+            Contact via WhatsApp
+          </Button>
         </CardFooter>
       </Card>
 
