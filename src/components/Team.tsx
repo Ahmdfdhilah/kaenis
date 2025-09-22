@@ -9,7 +9,7 @@ import {
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import fadil from '@/assets/fadil.jpg';
 import fito from '@/assets/ceo.jpg';
-// import miko from '@/assets/miko.jpg';
+import syafig from '@/assets/syafig.jpg';
 import richard from '@/assets/richard.jpg';
 
 interface TeamProps {
@@ -58,17 +58,17 @@ const teamList: TeamProps[] = [
       },
     ],
   },
-  // {
-  //   imageUrl: ,
-  //   name: "",
-  //   position: "",
-  //   socialNetworks: [
-  //     {
-  //       name: "Linkedin",
-  //       url: "",
-  //     },
-  //   ],
-  // },
+  {
+    imageUrl: syafig,
+    name: "Muhammad Firas Syafiq",
+    position: "Chief Marketing Officer",
+    socialNetworks: [
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/muhammad-firas-syafiq",
+      },
+    ],
+  },
 ];
 
 export const Team = () => {
