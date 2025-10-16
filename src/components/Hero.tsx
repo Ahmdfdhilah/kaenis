@@ -9,7 +9,7 @@ export const Hero = () => {
         <main className="text-4xl lg:text-5xl font-bold leading-tight md:leading-snug">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-primary to-primary/20 text-transparent bg-clip-text">
-              Kaenis
+              Lyra Digital
             </span>{" "}
             transforms
           </h1>{" "}
@@ -32,7 +32,7 @@ export const Hero = () => {
             onClick={() => {
               const phoneNumber = "6281234567890";
               const message = encodeURIComponent(
-                "Halo Kaenis Tech! Saya tertarik dengan layanan digital solutions yang Anda tawarkan. Bisakah kita diskusikan lebih lanjut tentang kebutuhan bisnis saya?"
+                "Halo Lyra Digital! Saya tertarik dengan layanan digital solutions yang Anda tawarkan. Bisakah kita diskusikan lebih lanjut tentang kebutuhan bisnis saya?"
               );
               const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
               window.open(whatsappUrl, '_blank');

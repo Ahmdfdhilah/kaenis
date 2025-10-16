@@ -15,7 +15,7 @@ export const HeroCards = () => {
   const openWhatsApp = () => {
     const phoneNumber = "6289647107815";
     const message = encodeURIComponent(
-      "Halo Kaenis Tech! Saya tertarik dengan layanan digital solutions yang Anda tawarkan. Bisakah kita diskusikan lebih lanjut tentang kebutuhan bisnis saya?"
+      "Halo Lyra Digital! Saya tertarik dengan layanan digital solutions yang Anda tawarkan. Bisakah kita diskusikan lebih lanjut tentang kebutuhan bisnis saya?"
     );
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');

@@ -1,6 +1,6 @@
 import { About } from "./components/About";
 // import { Cta } from "./components/Cta";
-import { FAQ } from "./components/FAQ";
+// import { FAQ } from "./components/FAQ";
 import { Project } from "./components/Project";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
@@ -26,7 +26,7 @@ function App() {
       <Team />
       {/* <Pricing /> */}
       {/* <Newsletter /> */}
-      <FAQ />
+      {/* <FAQ /> */}
       <Footer />
       <ScrollToTop />
     </div>

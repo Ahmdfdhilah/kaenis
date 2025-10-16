@@ -14,7 +14,7 @@ export const Footer = () => {
             className="font-bold text-xl flex mb-4"
           >
             <LogoIcon />
-            Kaenis Technology.
+            Lyra Digital Technology.
           </a>
 
           <div className="text-sm opacity-70">
@@ -62,7 +62,7 @@ export const Footer = () => {
 
         {/* Company Info */}
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Kaenis</h3>
+          <h3 className="font-bold text-lg">Lyra Digital</h3>
           <div>
             <a
               rel="noreferrer noopener"

@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import about from '@/assets/about.png';
+import about from '@/assets/coding.jpg';
 
 export const About = () => {
   return (
@@ -7,7 +7,7 @@ export const About = () => {
       {/* Hero Section */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-balance mb-6">
-          Meet <span className="bg-gradient-to-r from-primary to-primary/20 text-transparent bg-clip-text">Kaenis</span>
+          Meet <span className="bg-gradient-to-r from-primary to-primary/20 text-transparent bg-clip-text">Lyra Digital</span>
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
           We're passionate innovators dedicated to transforming ideas into extraordinary digital experiences. Our
@@ -24,7 +24,7 @@ export const About = () => {
             <div className="pl-8">
               <h3 className="text-2xl font-bold mb-4">Our Story</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Founded by a team of visionary developers and designers, Kaenis emerged from the desire to bridge the
+                Founded by a team of visionary developers and designers, Lyra Digital emerged from the desire to bridge the
                 gap between cutting-edge technology and human-centered design. We believe that every pixel, every line
                 of code, and every user interaction should serve a greater purpose.
               </p>
@@ -42,8 +42,8 @@ export const About = () => {
           <div className="relative overflow-hidden  p-8">
             <img
               src={about}
-              alt="Kaenis team collaboration"
-              className="w-full h-[400px]"
+              alt="Lyra Digital team collaboration"
+              className="w-full"
             />
           </div>
 
@@ -53,7 +53,7 @@ export const About = () => {
               <blockquote className="text-sm italic text-muted-foreground">
                 "Innovation distinguishes between a leader and a follower. We choose to lead."
               </blockquote>
-              <cite className="text-xs font-medium text-primary mt-2 block">— Kaenis Team</cite>
+              <cite className="text-xs font-medium text-primary mt-2 block">— Lyra Digital Team</cite>
             </CardContent>
           </Card>
         </div>

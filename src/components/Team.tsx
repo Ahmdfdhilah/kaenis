@@ -98,7 +98,7 @@ export const Team = () => {
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Meet the passionate digital innovators behind Kaenis Tech. Our team combines years of experience in software development, digital strategy, and cutting-edge technology to deliver exceptional solutions that transform businesses.
+        Meet the passionate digital innovators behind Lyra Digital. Our team combines years of experience in software development, digital strategy, and cutting-edge technology to deliver exceptional solutions that transform businesses.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">

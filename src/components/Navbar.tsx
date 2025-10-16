@@ -37,7 +37,7 @@ export const Navbar = () => {
               <div className="block">
                 <LogoIcon />
               </div>
-              <span className="hidden sm:block">Kaenis Technology</span>
+              <span className="hidden sm:block">Lyra Digital</span>
             </a>
           </div>
 
@@ -91,7 +91,7 @@ export const Navbar = () => {
                 <SheetHeader className="text-left">
                   <SheetTitle className="font-bold text-xl flex items-center gap-2">
                     <LogoIcon />
-                    Kaenis Technology
+                    Lyra Digital Technology
                   </SheetTitle>
                 </SheetHeader>
 
